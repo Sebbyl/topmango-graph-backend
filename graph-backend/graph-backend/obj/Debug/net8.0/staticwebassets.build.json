@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4CDRWLaOpXPqWVcZqrtP3cIYq9SrwYSJiu+TBer5L6g=",
+  "Source": "graph-backend",
+  "BasePath": "_content/graph-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

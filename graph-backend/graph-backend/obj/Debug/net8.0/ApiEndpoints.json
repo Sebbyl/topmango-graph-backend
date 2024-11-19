@@ -1,0 +1,110 @@
+[
+  {
+    "ContainingType": "graph_backend.Controllers.AreaChartController",
+    "Method": "getCharts",
+    "RelativePath": "api/AreaChart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "graph_backend.Controllers.AreaChartController",
+    "Method": "AddChart",
+    "RelativePath": "api/AreaChart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chart",
+        "Type": "graph_backend.Models.Chart\u00601[[graph_backend.Models.AreaChartCustomer, graph-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "graph_backend.Models.Chart\u00601[[graph_backend.Models.AreaChartCustomer, graph-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "graph_backend.Controllers.BarChartController",
+    "Method": "getCharts",
+    "RelativePath": "api/BarChart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "graph_backend.Controllers.BarChartController",
+    "Method": "AddChart",
+    "RelativePath": "api/BarChart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chart",
+        "Type": "graph_backend.Models.Chart\u00601[[graph_backend.Models.BarChartCustomer, graph-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "graph_backend.Models.Chart\u00601[[graph_backend.Models.BarChartCustomer, graph-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "graph_backend.Controllers.PieChartController",
+    "Method": "getCharts",
+    "RelativePath": "api/PieChart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "graph_backend.Controllers.PieChartController",
+    "Method": "AddChart",
+    "RelativePath": "api/PieChart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "chart",
+        "Type": "graph_backend.Models.Chart\u00601[[graph_backend.Models.PieChartCustomer, graph-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "graph_backend.Models.Chart\u00601[[graph_backend.Models.PieChartCustomer, graph-backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
